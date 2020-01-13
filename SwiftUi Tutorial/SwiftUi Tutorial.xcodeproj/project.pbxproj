@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6F53533423CC4D85003DEE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53533323CC4D85003DEE1D /* AppDelegate.swift */; };
 		6F53533623CC4D85003DEE1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53533523CC4D85003DEE1D /* SceneDelegate.swift */; };
-		6F53533823CC4D85003DEE1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53533723CC4D85003DEE1D /* ContentView.swift */; };
+		6F53533823CC4D85003DEE1D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53533723CC4D85003DEE1D /* LandmarkDetail.swift */; };
 		6F53533A23CC4D85003DEE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F53533923CC4D85003DEE1D /* Assets.xcassets */; };
 		6F53533D23CC4D85003DEE1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F53533C23CC4D85003DEE1D /* Preview Assets.xcassets */; };
 		6F53534023CC4D85003DEE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F53533E23CC4D85003DEE1D /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		6F53533023CC4D84003DEE1D /* SwiftUi Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F53533323CC4D85003DEE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F53533523CC4D85003DEE1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F53533723CC4D85003DEE1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F53533723CC4D85003DEE1D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		6F53533923CC4D85003DEE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F53533C23CC4D85003DEE1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F53533F23CC4D85003DEE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			children = (
 				6F53533323CC4D85003DEE1D /* AppDelegate.swift */,
 				6F53533523CC4D85003DEE1D /* SceneDelegate.swift */,
-				6F53533723CC4D85003DEE1D /* ContentView.swift */,
+				6F53533723CC4D85003DEE1D /* LandmarkDetail.swift */,
 				6F53533923CC4D85003DEE1D /* Assets.xcassets */,
 				6F53534723CC51E4003DEE1D /* CircleImage.swift */,
 				6F53534923CC52E7003DEE1D /* MapView.swift */,
@@ -156,7 +156,7 @@
 				6F53534823CC51E4003DEE1D /* CircleImage.swift in Sources */,
 				6F53534A23CC52E7003DEE1D /* MapView.swift in Sources */,
 				6F53533623CC4D85003DEE1D /* SceneDelegate.swift in Sources */,
-				6F53533823CC4D85003DEE1D /* ContentView.swift in Sources */,
+				6F53533823CC4D85003DEE1D /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
