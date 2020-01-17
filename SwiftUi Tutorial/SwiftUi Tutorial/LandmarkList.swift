@@ -11,7 +11,7 @@ import SwiftUI
 struct LandmarkList: View {
     var body: some View {
         NavigationView {
-        List(landmarkData) { landmark in
+            List(landmarkData, id: \.id) { landmark in
             NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                 LandmarkRow(landmark: landmark)
                    }
