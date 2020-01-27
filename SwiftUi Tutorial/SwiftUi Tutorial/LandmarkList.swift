@@ -10,7 +10,6 @@ import SwiftUI
 
 struct LandmarkList: View {
     @State private var landmark = landmarkData
-    @State private var showingAlert = false
     var body: some View {
         NavigationView {
             List{
@@ -25,16 +24,11 @@ struct LandmarkList: View {
             .navigationBarTitle(Text("Landmarks"))
             .navigationBarItems(trailing: EditButton())
                 }
-        
-        .alert(isPresented: $showingAlert) {
-            Alert(title: Text("Do you want to delete?"), primaryButton: .destructive(Text("Confirm")), secondaryButton: .cancel(Text("Cancel")))
-            }
         }
     
     
     func delete(at offsets: IndexSet){
-        showingAlert = true
-        //landmark.remove(atOffsets: offsets)
+        landmark.remove(atOffsets: offsets)
     }
     
     func move(from source: IndexSet, to destination: Int){
