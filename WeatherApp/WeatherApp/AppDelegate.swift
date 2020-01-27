@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  WeatherAoo
+//  WeatherApp
 //
 //  Created by Mitro Onatsu on 27/01/2020.
 //  Copyright © 2020 Mitro Onatsu. All rights reserved.
