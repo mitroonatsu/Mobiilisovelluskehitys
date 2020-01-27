@@ -10,14 +10,24 @@ import SwiftUI
 
 struct LandmarkList: View {
     @State private var landmark = landmarkData
+    @State var showFavoritesOnly = false
+    @EnvironmentObject private var userData: UserData
     var body: some View {
         NavigationView {
             List{
-                ForEach(landmark, id: \.id){ landmark in
-            NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                
+                Toggle(isOn: $userData.showFavoritesOnly) {
+                    Text("Favorites only")
+                }
+                
+                ForEach(userData.landmarks){ landmark in
+                    if !self.userData.showFavoritesOnly || landmark.isFavorite {
+            NavigationLink(destination: LandmarkDetail(landmark: landmark)
+                .environmentObject(self.userData)) {
                 LandmarkRow(landmark: landmark)
                    }
                 }
+            }
                 .onDelete(perform: delete)
                 .onMove(perform: move)
             }
@@ -28,19 +38,20 @@ struct LandmarkList: View {
     
     
     func delete(at offsets: IndexSet){
-        landmark.remove(atOffsets: offsets)
+        userData.landmarks.remove(atOffsets: offsets)
     }
     
     func move(from source: IndexSet, to destination: Int){
-        landmark.move(fromOffsets: source, toOffset: destination)
+        userData.landmarks.move(fromOffsets: source, toOffset: destination)
     }
 }
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
         LandmarkList()
-.previewDevice(PreviewDevice(rawValue: "iPhone SE"))
-        .previewDisplayName(deviceName)
+            .environmentObject(UserData())
+            .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+            .previewDisplayName(deviceName)
         }
     }
 }
