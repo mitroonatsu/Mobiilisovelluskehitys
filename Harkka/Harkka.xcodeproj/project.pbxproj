@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3D867E24571552000F8077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D867D24571552000F8077 /* AppDelegate.swift */; };
+		AF3D868024571552000F8077 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D867F24571552000F8077 /* SceneDelegate.swift */; };
+		AF3D868224571552000F8077 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D868124571552000F8077 /* ContentView.swift */; };
+		AF3D868424571553000F8077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3D868324571553000F8077 /* Assets.xcassets */; };
+		AF3D868724571553000F8077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3D868624571553000F8077 /* Preview Assets.xcassets */; };
+		AF3D868A24571553000F8077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3D868824571553000F8077 /* LaunchScreen.storyboard */; };
+		AF3D8692245715F4000F8077 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D8691245715F4000F8077 /* AsyncImage.swift */; };
+		AF3D86942457164F000F8077 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D86932457164F000F8077 /* EnvironmentValues+ImageCache.swift */; };
+		AF3D869624571673000F8077 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D869524571673000F8077 /* ImageCache.swift */; };
+		AF3D8698245716A1000F8077 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D8697245716A1000F8077 /* ImageLoader.swift */; };
+		AF504604245723B40009CC25 /* CameraOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF504603245723B40009CC25 /* CameraOne.swift */; };
+		AF5046062457265E0009CC25 /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5046052457265E0009CC25 /* Cameras.swift */; };
+		AF504608245736420009CC25 /* CameraTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF504607245736420009CC25 /* CameraTwo.swift */; };
+		AF50460A2457369C0009CC25 /* CameraThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5046092457369C0009CC25 /* CameraThree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF3D867A24571552000F8077 /* Harkka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harkka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3D867D24571552000F8077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3D867F24571552000F8077 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF3D868124571552000F8077 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF3D868324571553000F8077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF3D868624571553000F8077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF3D868924571553000F8077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF3D868B24571553000F8077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3D8691245715F4000F8077 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		AF3D86932457164F000F8077 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		AF3D869524571673000F8077 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		AF3D8697245716A1000F8077 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		AF504603245723B40009CC25 /* CameraOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraOne.swift; sourceTree = "<group>"; };
+		AF5046052457265E0009CC25 /* Cameras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cameras.swift; sourceTree = "<group>"; };
+		AF504607245736420009CC25 /* CameraTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTwo.swift; sourceTree = "<group>"; };
+		AF5046092457369C0009CC25 /* CameraThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraThree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3D867724571552000F8077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3D867124571552000F8077 = {
+			isa = PBXGroup;
+			children = (
+				AF3D867C24571552000F8077 /* Harkka */,
+				AF3D867B24571552000F8077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3D867B24571552000F8077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3D867A24571552000F8077 /* Harkka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3D867C24571552000F8077 /* Harkka */ = {
+			isa = PBXGroup;
+			children = (
+				AF3D867D24571552000F8077 /* AppDelegate.swift */,
+				AF3D867F24571552000F8077 /* SceneDelegate.swift */,
+				AF3D868124571552000F8077 /* ContentView.swift */,
+				AF3D868324571553000F8077 /* Assets.xcassets */,
+				AF3D868824571553000F8077 /* LaunchScreen.storyboard */,
+				AF3D868B24571553000F8077 /* Info.plist */,
+				AF3D868524571553000F8077 /* Preview Content */,
+				AF3D8691245715F4000F8077 /* AsyncImage.swift */,
+				AF3D86932457164F000F8077 /* EnvironmentValues+ImageCache.swift */,
+				AF3D869524571673000F8077 /* ImageCache.swift */,
+				AF3D8697245716A1000F8077 /* ImageLoader.swift */,
+				AF504603245723B40009CC25 /* CameraOne.swift */,
+				AF5046052457265E0009CC25 /* Cameras.swift */,
+				AF504607245736420009CC25 /* CameraTwo.swift */,
+				AF5046092457369C0009CC25 /* CameraThree.swift */,
+			);
+			path = Harkka;
+			sourceTree = "<group>";
+		};
+		AF3D868524571553000F8077 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF3D868624571553000F8077 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3D867924571552000F8077 /* Harkka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3D868E24571553000F8077 /* Build configuration list for PBXNativeTarget "Harkka" */;
+			buildPhases = (
+				AF3D867624571552000F8077 /* Sources */,
+				AF3D867724571552000F8077 /* Frameworks */,
+				AF3D867824571552000F8077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harkka;
+			productName = Harkka;
+			productReference = AF3D867A24571552000F8077 /* Harkka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3D867224571552000F8077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Mitro Onatsu";
+				TargetAttributes = {
+					AF3D867924571552000F8077 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AF3D867524571552000F8077 /* Build configuration list for PBXProject "Harkka" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3D867124571552000F8077;
+			productRefGroup = AF3D867B24571552000F8077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3D867924571552000F8077 /* Harkka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3D867824571552000F8077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3D868A24571553000F8077 /* LaunchScreen.storyboard in Resources */,
+				AF3D868724571553000F8077 /* Preview Assets.xcassets in Resources */,
+				AF3D868424571553000F8077 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3D867624571552000F8077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3D8698245716A1000F8077 /* ImageLoader.swift in Sources */,
+				AF504608245736420009CC25 /* CameraTwo.swift in Sources */,
+				AF3D869624571673000F8077 /* ImageCache.swift in Sources */,
+				AF3D8692245715F4000F8077 /* AsyncImage.swift in Sources */,
+				AF3D867E24571552000F8077 /* AppDelegate.swift in Sources */,
+				AF3D868024571552000F8077 /* SceneDelegate.swift in Sources */,
+				AF504604245723B40009CC25 /* CameraOne.swift in Sources */,
+				AF5046062457265E0009CC25 /* Cameras.swift in Sources */,
+				AF3D868224571552000F8077 /* ContentView.swift in Sources */,
+				AF50460A2457369C0009CC25 /* CameraThree.swift in Sources */,
+				AF3D86942457164F000F8077 /* EnvironmentValues+ImageCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF3D868824571553000F8077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3D868924571553000F8077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3D868C24571553000F8077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF3D868D24571553000F8077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3D868F24571553000F8077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Harkka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Harkka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab.digitrade.Harkka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF3D869024571553000F8077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Harkka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Harkka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab.digitrade.Harkka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3D867524571552000F8077 /* Build configuration list for PBXProject "Harkka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3D868C24571553000F8077 /* Debug */,
+				AF3D868D24571553000F8077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3D868E24571553000F8077 /* Build configuration list for PBXNativeTarget "Harkka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3D868F24571553000F8077 /* Debug */,
+				AF3D869024571553000F8077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF3D867224571552000F8077 /* Project object */;
+}
