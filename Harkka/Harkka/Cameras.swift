@@ -31,7 +31,7 @@ struct Cameras: View {
                         .foregroundColor(Color.black)
                 }.padding(30)
             .navigationBarTitle("Kamerat")
-        }.navigationBarBackButtonHidden(true)
+        }
             }
         }
     }
